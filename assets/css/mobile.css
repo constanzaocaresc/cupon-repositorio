@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.navbar{
+    background-color: #28A745;
+}
+.navbar-brand{
+    height: 45px;
+    width: 120px;
+}
+a.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #F8F9FA;
+}
+.card.col-lg-3.col-sm-3{
+    margin: 0 0 3em 0; 
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+}
+
+h5{
+    font-weight: 500;
+}
+p{
+    font-weight: 300;
+}
+
+#content-card{
+    margin: 5em 0 3em 0 ;
+    padding: 0 1.5em 0 1.5em;
+}
+
+.nombre-tienda{
+    font-size: 1.5em;
+    color: #707070;
+    margin: 0;
+}
+.card-title{
+    font-size: 1.8em;
+    color: #707070;
+}
+div.precio{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: baseline;
+    padding: 0;
+}
+
+.p-normal{
+    font-size: 1.2em;
+    margin: 0 1em 0 0;
+}
+.p-descuento{
+    font-size: 1.5em;
+    color: #28A745;
+    font-weight: 500;
+    margin:0 1em 0 0;
+}
+#titulo-footer{
+    color: #F8F9FA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 1em 0 0 0;
+
+}
+#form-contacto{
+    background-color: #28A745;
+    text-align: center;
+    padding: 0 1.2em 0 1.2em;
+}
+.btn.btn-light{
+    border-radius: 4px;
+    height: 40px;
+    width: 110px;
+    margin: 0 0 2em 0;
+}
+#logo-cupon-footer{
+    height: 24px;
+    width: 82px;
+    padding:0 ;
+    margin: 2em 0 1em 0;
+}
+#footer-cierre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: #707070;
+}
